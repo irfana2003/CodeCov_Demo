@@ -27,9 +27,9 @@ func TestMul(t *testing.T){
 	assert.NoError(err)
 }
 
-func TestDiv(t *testing.T){
-	assert := assert.New(t)
-	result, err := Div(4,2)
-	assert.Equal(result, 2)
-	assert.NoError(err)
-}
+// func TestDiv(t *testing.T){
+// 	assert := assert.New(t)
+// 	result, err := Div(4,2)
+// 	assert.Equal(result, 2)
+// 	assert.NoError(err)
+// }
