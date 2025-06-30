@@ -8,8 +8,8 @@ func Add(a, b int) (int, error) {
 	return a + b, nil
 }
 
-func Sub(a, b int) (int, error) {
-	return a - b, nil
+func Sub(c, d int) (int, error) {
+	return c - d, nil
 }
 
 func Mul(a, b int) (int, error) {
