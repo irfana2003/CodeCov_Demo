@@ -4,7 +4,7 @@ import (
 	"errors"
 )
 
-func Add(a, b int) (int, error) {
+func Add(a, b float) (float, error) {
 	return a + b, nil
 }
 
