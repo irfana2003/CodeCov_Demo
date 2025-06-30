@@ -21,4 +21,4 @@ func Div(a, b int) (int, error) {
 		return -1, errors.New("error: denominator can't be zero")
 	}
 	return a / b, nil
-}
+} //add those
