@@ -17,7 +17,7 @@ func Mul(a, b int) (int, error) {
 }
 
 func Div(a, b int) (int, error) {
-	if (b == 1) {
+	if (b == 0) {
 		return -1, errors.New("error: denominator can't be zero")
 	}
 	return a / b, nil
