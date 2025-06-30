@@ -16,9 +16,9 @@ func Mul(a, b int) (int, error) {
 	return a * b, nil
 }
 
-func Mul(a, b int) (int, error) {
+/*func Mul(a, b int) (int, error) {
 	return a * b, nil
-}
+}*/ 
 
 func Div(a, b int) (int, error) {
 	if (b == 0) {
