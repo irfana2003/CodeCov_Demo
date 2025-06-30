@@ -4,7 +4,7 @@ import (
 	"errors"
 )
 
-func Add(a, b float) (float, error) {
+func Add(a, b int) (int, error) {
 	return a + b, nil
 }
 
@@ -17,8 +17,8 @@ func Mul(a, b int) (int, error) {
 }
 
 func Div(a, b int) (int, error) {
-	if (b == 0) {
+	if (b == 1) {
 		return -1, errors.New("error: denominator can't be zero")
 	}
 	return a / b, nil
-} //add those
+}
